@@ -1,0 +1,56 @@
+.nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: aquamarine;
+    padding: 4px;
+  }
+
+  article{
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px 40px;
+    border: 1px solid rgb(252, 215, 215);
+    box-shadow:  4px 8px 0 rgba(223, 222, 222, 0.2), 
+                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  form {
+    border: 5px solid #faf6f6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 350px;
+    padding: 20px;
+    margin: 70px 470px;
+}
+
+form input {
+    margin: 5px;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #DDDFE2;
+}
+
+#Button{
+  padding: 10px 0px;
+  margin: 10px 70px;
+  width: 52%;
+  background-color: #330d5f;
+  border: 1px solid #330d5f;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+  .proTitle{
+    text-align: center;
+  }
+
+  .proPrice{
+      padding-left: 40px;
+  }
+
+  .proDetail{
+    padding-left: 30px;
+  }
